@@ -11,6 +11,7 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => (
       height: { sx: "auto", md: "95%" },
       flexDirection: { md: "column" },
     }}
+    
   >
     {categories.map((category) => (
       <button
