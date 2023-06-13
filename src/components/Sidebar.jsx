@@ -1,7 +1,7 @@
 import React from "react";
 import { Stack } from "@mui/material";
 
-import { categories } from "../components/utils/constants";
+import { categories } from "../utils/constants";
 
 const Categories = ({ selectedCategory, setSelectedCategory }) => (
   <Stack
@@ -11,7 +11,6 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => (
       height: { sx: "auto", md: "95%" },
       flexDirection: { md: "column" },
     }}
-    
   >
     {categories.map((category) => (
       <button
