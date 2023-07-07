@@ -14,7 +14,7 @@ import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
 
-export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
+export const logo = '/src/images/logo.png';  
 
 export const categories = [
   {
